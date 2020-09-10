@@ -1,14 +1,4 @@
-<html>
-
-<head>
-    <title>Sanket Munot</title>
-    <link rel="icon" href="favicon.ico" />
-    <!-- <script src='data.js'></script> -->
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
-
-    <script>
-        const PERSONAL_DATA = {
+ const PERSONAL_DATA = {
     NAME: 'Sanket Munot',
     SUMMARY: "I am a Developer and Technology Enthusiast. I strive to learn new things and develope solutions for real world scenarios.",
     LINKEDIN: 'http://www.linkedin.com/in/sanket-munot-ba196615a/',
@@ -103,71 +93,3 @@ const STUDY = [
         SUMMARY : '7.6 CGPA',
     }
 ]
-    </script>
-</head>
-
-<body id="body">
-    <div>
-        <button id='dark' onclick="toggle()">Toggle Mode</button>
-    </div>
-    <div id="personal">
-        <u>
-            <h1 id='name'></h1>
-        </u>
-
-        <h3 id="summary"></h3>
-
-        <div id="social">
-            <img src='ProfilePhoto.jpg' id='photo'>
-            <i class="devicon-linkedin-plain colored"></i>
-            <i class="devicon-facebook-plain colored"></i>
-            <i class="devicon-github-plain-wordmark"></i>
-            <i class="devicon-twitter-plain"></i>
-
-        </div>
-        <hr>
-    </div>
-
-    <div id="info">
-
-        <h2>Education Summary</h2>
-        <table id="education">
-            <thead>
-                <td>Course</td>
-                <td>Institute</td>
-                <td>Score</td>
-                <td>Period</td>
-            </thead>
-        </table>
-
-        <h2>Personal Projects</h2>
-        <table id="projects">
-
-        </table>
-    </div>
-
-
-    <div >
-        <h2>Work Experience</h2>
-        <table id="work">
-            <tr>
-                <th>Period</th>
-                <th>Job Type</th>
-                <th>Organisation</th>
-                <th>Summary</th>
-            </tr>
-        </table>
-    </div>
-
-    <div>
-        <h2>Tech Bucket</h2>
-
-        <div id="tech">
-        </div>
-    </div>
-    
-
-</body>
-<script src="script.js"></script>
-
-</html>
