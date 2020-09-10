@@ -1,17 +1,6 @@
  const PERSONAL_DATA = {
     NAME: 'Sanket Munot',
     SUMMARY: "I am a Developer and Technology Enthusiast. I strive to learn new things and develope solutions for real world scenarios.",
-    LINKEDIN: 'http://www.linkedin.com/in/sanket-munot-ba196615a/',
-    GITHUB: 'http://github.com/sanketmunot',
-    GMAIL: 'sanketmunot95@gmail.com',
-    FACEBOOK: 'http://www.facebook.com/sanket.munot.75',
-    TWITTER: 'http://twitter.com/SanketMunot4',
-    PHONE: '+91-9158840097',
-    AGE: '21',
-    NATIONALITY: 'Indian',
-    LANGUAGES: 'English, Hindi, Marathi',
-    ADDRESS: 'Shastri Ward, Hinganghat, Wardha, Maharashtra',
-    FREELANCE: 'Yes'
 }
 
 
